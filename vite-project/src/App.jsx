@@ -12,7 +12,8 @@ function App() {
   function render () {
     if(currentPage == "About") {
       return (
-        <About></About>
+        <About>
+        </About>
       )
     }
     else if(currentPage == "Portfolio") {
