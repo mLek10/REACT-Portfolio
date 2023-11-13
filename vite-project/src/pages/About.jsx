@@ -1,7 +1,7 @@
 import React from 'react';
-import myImage from '../assets/me.jpg';
 
 function About() {
+    const myImage = '/assets/me.jpg';
     return (
 
         <div className="container mx-auto mt-8 p-8 bg-blue-300 rounded-lg">
