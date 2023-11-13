@@ -4,6 +4,7 @@ import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import './App.css'
 import Contact from './pages/Contact'
+import Resume from './pages/Resume'
 
 function App() {
   // const currentPage = "About";
@@ -24,6 +25,11 @@ function App() {
     else if(currentPage == "Contact") {
       return (
         <Contact></Contact>
+      )
+    }
+    else if(currentPage == "Resume") {
+      return (
+        <Resume></Resume>
       )
     }
   }
