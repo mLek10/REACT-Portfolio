@@ -8,8 +8,8 @@ import Resume from './pages/Resume'
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(fab);
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function App() {
   // const currentPage = "About";
   const [currentPage, setCurrentPage] = useState("About")
@@ -51,4 +51,5 @@ return (
   )
 }
 
+library.add(fab);
 export default App
