@@ -23,8 +23,8 @@ function Resume() {
     ];
 
     return (
-        <div className="container mx-auto mt-8 p-8 bg-gray-200 rounded-lg">
-        <h1 className="text-3xl font-bold mb-4 text-center">My Current Skills</h1>
+        <div className="container mx-auto mt-8 p-8 bg-teal-500 rounded-lg">
+        <h1 className="text-3xl font-bold mb-4 text-center">Emily's Skills include but are not limited to...</h1>
         <div className="grid grid-cols-2 gap-4">
             <ul className="list-inside list-disc">
                 {items.slice(0, Math.ceil(items.length / 2)).map((item, index) => (
